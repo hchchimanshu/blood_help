@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Testing3</string>
+    <string name="title_activity_base">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_register">Register</string>
+    <string name="title_list_of_blood">Register</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="login_text">LOGIN</string>
+    <string name="email_text">Email</string>
+    <string name="password_text">Password</string>
+    <string name="forget_pass">Forget Password?</string>
+    <!--    <string name="create_account">Not Registered? Create Account</string>-->
+    <string name="create_account">Not Registered?<font fgcolor="#D13E3E"> Create Account</font></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--    <string name="some_text">Font color is <font fgcolor="#ffff0000">red</font></string>-->
+
+    <!--    register fragment-->
+    <string name="register_text">REGISTER</string>
+    <string name="first_name_text">First Name</string>
+    <string name="last_name_text">Last Name</string>
+    <string name="dob">Date Of Birth</string>
+    <string name="mob_num_text">Mobile Number</string>
+    <string name="get_otp_text">Get OTP</string>
+    <string name="resend_otp_text">Resend OTP</string>
+    <string name="hint_otp">Enter OTP</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="username_text">Email</string>
+    <string name="password_text_register">Password</string>
+    <string name="confirm_password_text">Confirm Password</string>
+    <string-array name="blood_names">
+        <item>O+</item>
+        <item>O-</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+
+<!--    list of blood-->
+    <string name="list_blood">List Of Blood</string>
+
+<!--    dashboard-->
+    <string name="detail">List Of People Having O+ Blood</string>
+    <string name="jalandhar">Jalandhar</string>
+
+<!--    toolbarText-->
+    <string name="register">REGISTER</string>
+    <string name="login">LOGIN</string>
+    <string name="list_people">LIST OF PEOPLE</string>
+    <string name="list_of_blood">LIST OF BLOOD GROUP</string>
+
+<!--    splash-->
+    <string name="blood_help"><b>bLoOd HeLp</b></string>
+</resources>

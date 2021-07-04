@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Large_text">22dp</dimen>
+    <dimen name="extra_Large_text">24dp</dimen>
+    <dimen name="Medium_text">18dp</dimen>
+    <dimen name="Small_text">14sp</dimen>
+    <dimen name="Toolbartext">18sp</dimen>
+    <!--    <dimen name="Height_Sort">30dp</dimen>-->
+</resources>

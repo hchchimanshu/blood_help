@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="extra_Large_text">23dp</dimen>
+    <dimen name="Large_text">20dp</dimen>
+    <dimen name="Medium_text">18dp</dimen>
+    <dimen name="Small_text">14sp</dimen>
+    <dimen name="Toolbartext">18sp</dimen>
+</resources>
