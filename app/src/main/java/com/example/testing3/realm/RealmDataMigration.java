@@ -20,7 +20,6 @@ public class RealmDataMigration implements RealmMigration {
             final RealmObjectSchema userSchema = schema.get("DataModal");
             userSchema.addField("mob",long.class);
             userSchema.addField("bloodGroup",String.class);
-            // userSchema.addField("roll",int.class);
             oldVersion++;
         }
 
