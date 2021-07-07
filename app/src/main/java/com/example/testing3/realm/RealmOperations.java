@@ -48,11 +48,6 @@ public class RealmOperations {
 
 
         realm.commitTransaction();
-//        Intent intent = new Intent(RegisterActivity.this, DisplayActivity.class);
-//        Toast.makeText(RegisterActivity.this, "Registered", Toast.LENGTH_SHORT).show();
-//        startActivity(intent);
-//        finish();
-
 
     }
 
@@ -61,11 +56,7 @@ public class RealmOperations {
         RealmResults<PeopleDetailPojo> modals = realm.where(PeopleDetailPojo.class).findAll();
         for (PeopleDetailPojo modal : modals) {
             if (email.equals(modal.getEmail()) && password.equals(modal.getPassword())) {
-                //Log.e(TAG, myRealmObject.getEmail());
-//                Intent intent = new Intent(context,DisplayActivity.class);
-//                //Toast.makeText(this, "Success", Toast.LENGTH_SHORT).show();
-//                startActivity(intent);
-//                finish();
+                
                 return true;
             }
             else
@@ -91,7 +82,6 @@ public class RealmOperations {
 //                    " Email : "+dataModals.get(i).getEmail() +
 //                    " Pass : "+dataModals.get(i).getPassword() +"\n");
         }
-        //  realm.commitTransaction();
 
     }
 
